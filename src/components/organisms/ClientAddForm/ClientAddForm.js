@@ -54,7 +54,7 @@ export const ClientAddForm = () => {
         label="Category"
         name="category"
         id="category"
-        options={['WebServices','AndroidApp','iOSapp']} />
+        options={[`WebServices`·`AndroidApp`·`iOSapp`]} />
       {errors.category ? (
         <FormInputError>Please fill category field</FormInputError>
       ) : null}
@@ -63,7 +63,7 @@ export const ClientAddForm = () => {
         label="Status"
         name="status"
         id="status"
-        options={['lead', 'contract', 'completed']}
+        options={[`lead`·`contract`·`completed`]}
       />
       {errors.status ? (
         <FormInputError>Please set status</FormInputError>
