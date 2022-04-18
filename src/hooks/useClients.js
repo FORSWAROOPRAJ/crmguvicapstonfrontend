@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const clientsAPI = axios.create({
   withCredentials: true,
-  baseURL: 'http://localhost:5000/api',
+  baseURL: 'https://crm-guvi-backend.herokuapp.com/',
 });
 
 export const useClients = () => {
