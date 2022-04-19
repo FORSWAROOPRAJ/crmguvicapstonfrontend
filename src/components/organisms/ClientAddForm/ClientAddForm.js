@@ -54,7 +54,7 @@ export const ClientAddForm = () => {
         label="Category"
         name="category"
         id="category"
-        options={["WebServices","AndroidApp","iOSapp"]} />
+        options={['WebServices','AndroidApp','iOSapp']}/>
       {errors.category ? (
         <FormInputError>Please fill category field</FormInputError>
       ) : null}
