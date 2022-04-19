@@ -1,5 +1,7 @@
+https://github.com/FORSWAROOPRAJ/crmguvicapstonfrontend/blob/master/.prettierrc
 {
-  "singleQuote": true,
-  "endOfLine": "auto"
-  "tabWidth":4    
+  "trailingComma": "es5",
+  "tabWidth": 4,
+  "semi": false,
+  "singleQuote": true
 }
