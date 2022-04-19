@@ -12,7 +12,11 @@
       {
         "endOfLine": "auto"
       }
-    ]
+    ],
+    {
+    // ...
+    'prettier/prettier': ['error', { singleQuote: true }]
+  }
   },
   "env": {
     "browser": true,
