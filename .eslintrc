@@ -19,5 +19,11 @@
     "node": true,
     "es6": true
   },
-  "parser": "@babel/eslint-parser"
+  "parser": "@babel/eslint-parser",
+  
+  
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
 }
